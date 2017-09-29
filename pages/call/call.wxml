@@ -1,0 +1,2 @@
+	
+<button type="default" bindtap="calling">拨打电话</button>

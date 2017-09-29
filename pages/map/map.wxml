@@ -1,20 +1,24 @@
 
       <form bindsubmit="openLocation">
         <view class="page-body-form">
-          <view class="page-body-form-item">
+          <view class="page-body-form-item"  style='display:none'>
             <text class="page-body-form-key">经度</text>
             <input class="page-body-form-value" type="text" disabled="{{true}}"  value="113.3275200000" name="longitude"></input>
           </view>
-          <view class="page-body-form-item">
+          <view class="page-body-form-item"  style='display:none' >
             <text class="page-body-form-key">纬度</text>
-            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="23.1608600000" name="latitude"></input>
+            <input class="page-body-form-value" type="text" disabled="{{true}}" value="23.1608600000" name="latitude"></input>
+          </view>
+           <view class="page-body-form-item">
+            <text class="page-body-form-key">公司名称:</text>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="广东科技有限公司" name="name"></input>
           </view>
           <view class="page-body-form-item">
-            <text class="page-body-form-key">位置名称</text>
+            <text class="page-body-form-key">商圈位置:</text>
             <input class="page-body-form-value" type="text" disabled="{{true}}"  value="燕侨大厦" name="name"></input>
           </view>
           <view class="page-body-form-item" style="border-bottom: none;">
-            <text class="page-body-form-key">详细位置</text>
+            <text class="page-body-form-key">详细地址:</text>
             <input class="page-body-form-value" type="text" disabled="{{true}}"  value="广州市天河区燕岭路89号" name="address"></input>
           </view>
         </view>

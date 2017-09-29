@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/call/call"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -29,16 +30,10 @@
         "text": "地址"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/call/call",
         "iconPath": "images/tell.png",
         "selectedIconPath": "images/tells.png",
         "text": "电话"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "images/cs.png",
-        "selectedIconPath": "images/css.png",
-        "text": "客服"
       }
     ]
   },
