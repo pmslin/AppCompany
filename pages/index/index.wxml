@@ -1,0 +1,110 @@
+<view class="home-wrap">
+  <view class="ads-list">
+    <view class="ads-item" wx:for="{{advertise}}" wx:key="unique" wx:for-item="item">
+      <image src="{{item.image}}" mode="scaleToFill center" class="sub-banner"></image>
+    </view>
+  </view>
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+  <view class="workbench">
+    <text class="title"></text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/dynamic.png"></image>
+        <text>公司动态</text>
+      </view>
+      <view class="items">
+        <image src="../../images/success.png"></image>
+        <text>成功案例</text>
+      </view>
+      <view class="items">
+        <image src="../../images/callus2.png"></image>
+        <text>联系我们</text>
+      </view>
+      <view class="items">
+        <image src="../../images/about.png"></image>
+        <text>关于我们</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="workbench">
+    <text class="title">视频介绍</text>
+    <view class="video">
+      <view class="section tc">
+        <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+          danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="workbench_news">
+      <text class="title">公司动态</text>
+      <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/dynamic.png"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+        </view>
+       </view>
+
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/dynamic.png"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+        </view>
+       </view>
+
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/dynamic.png"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+        </view>
+       </view>
+
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/dynamic.png"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+        </view>
+       </view>
+
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/dynamic.png"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+        </view>
+       </view>
+  </view>
+
+
+<view class="workbench">
+    <text class="title">图片介绍</text>  
+  <!--水平滚动-->
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+  <view style=" width: 200px; height: 100px; display: inline-block;  padding-left:5px;"  wx:for="{{imgalist}}" wx:for-item="image" >
+    <image style="width: 200px; height: 100px;"  src="{{image}}" data-src="{{image}}" bindtap="previewImage" ></image>
+  </view>
+</scroll-view>
+</view>
+
+
+</view>
