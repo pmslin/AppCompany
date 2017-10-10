@@ -1,0 +1,17 @@
+<view hidden="{{loading}}" class="weui-article">
+  <view class="weui-article__h1">关于我们</view>
+  <!-- 分割线 -->
+  <view class="divLine"></view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">
+      <text class="summary">
+       SOFTWARE信息技术有限公司是一家以数据生命周期管理、隐私数据保护、测试数据管理、应用退役管理为核心业务的高新技术企业。公司于2007年4月在北京市海淀区中关村软件园成立。我们现了大数据的生命周期管理、测试数据管理、隐私数据保护、敏感信息屏蔽、应用退役管理等全面的数据管理。
+
+SOFTWARE信息技术有限公司是一家以数据生命周期管理、隐私数据保护、测试数据管理、应用退役管理为核心业务的高新技术企业。公司于2007年4月在北京市海淀区中关村软件园成立。我们现了大数据的生命周期管理、测试数据管理、隐私数据保护、敏感信息屏蔽、应用退役管理等全面的数据管理。
+        </text>
+      </view>
+    <view class="weui-article__section">
+      <template is="htmlpart" data="{{articleInfo}}" />
+    </view>
+  </view>
+</view>

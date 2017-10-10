@@ -13,6 +13,11 @@
             <input class="page-body-form-value" type="text" disabled="{{true}}"  value="李经理" name="name"></input>
           </view>
 
+          <view class="page-body-form-item" >
+            <text class="page-body-form-key">邮箱:</text>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="company@163.com" name="email"></input>
+          </view>
+
           <view class="page-body-form-item" style="border-bottom: none;">
             <text class="page-body-form-key">电话:</text>
             <input class="page-body-form-value" type="text" disabled="{{true}}"  value="020-123456" name="address"></input>

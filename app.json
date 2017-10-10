@@ -3,7 +3,22 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/map/map",
-    "pages/call/call"
+    "pages/call/call",
+    "pages/us/us",
+    "pages/contact/contact",
+    "pages/new/newList",
+    "pages/case/caseList",
+    "pages/case/detail1",
+    "pages/case/detail2",
+    "pages/case/detail3",
+    "pages/case/detail4",
+    "pages/case/detail5",
+    "pages/detail/detail1",
+    "pages/detail/detail2",
+    "pages/detail/detail3",
+    "pages/detail/detail4",
+    "pages/detail/detail5"
+  
   ],
   "window":{
     "backgroundTextStyle":"light",

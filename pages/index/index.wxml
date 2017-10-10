@@ -17,21 +17,33 @@
   <view class="workbench">
     <text class="title"></text>
     <view class="list">
+      
       <view class="items">
-        <image src="../../images/dynamic.png"></image>
-        <text>公司动态</text>
+        <navigator url="../new/newList">
+          <image src="../../images/dynamic.png"></image>
+          <text>公司动态</text>
+        </navigator>
+      </view>
+   
+
+      <view class="items">
+        <navigator url="../case/caseList">
+          <image src="../../images/success.png"></image>
+          <text>成功案例</text>
+        </navigator>
       </view>
       <view class="items">
-        <image src="../../images/success.png"></image>
-        <text>成功案例</text>
+        <navigator url="../contact/contact">
+          <image src="../../images/callus2.png"></image>
+          <text>联系我们</text>
+        </navigator>
       </view>
+
       <view class="items">
-        <image src="../../images/callus2.png"></image>
-        <text>联系我们</text>
-      </view>
-      <view class="items">
-        <image src="../../images/about.png"></image>
-        <text>关于我们</text>
+        <navigator url="../us/us">
+          <image src="../../images/about.png"></image>
+          <text>关于我们</text>
+        </navigator>
       </view>
     </view>
   </view>
@@ -49,50 +61,62 @@
 
   <view class="workbench_news">
       <text class="title">公司动态</text>
+
+      <navigator url="../detail/detail1">
       <view class="news"   style="display:flex;flex-direction: row;">
         <view class="news_img">
-          <image class="cover-img" src="../../images/dynamic.png"></image>
+          <image class="cover-img" src="../../images/new2.jpg"></image>
         </view>
         <view class="content">
-          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+          <view class="news_title">腾讯科技新书预售：“掘金”互联网+时代</view>
         </view>
        </view>
+       </navigator>
 
+        <navigator url="../detail/detail2">
         <view class="news"   style="display:flex;flex-direction: row;">
         <view class="news_img">
-          <image class="cover-img" src="../../images/dynamic.png"></image>
+          <image class="cover-img" src="../../images/new3.jpg"></image>
         </view>
         <view class="content">
-          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+          <view class="news_title">谷歌：安全问题机制并不如你想象中安全</view>
         </view>
        </view>
+       </navigator>
 
+        <navigator url="../detail/detail3">
         <view class="news"   style="display:flex;flex-direction: row;">
         <view class="news_img">
-          <image class="cover-img" src="../../images/dynamic.png"></image>
+          <image class="cover-img" src="../../images/new4.jpg"></image>
         </view>
         <view class="content">
-          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+          <view class="news_title">金融机构在大数据时代应如何进步</view>
         </view>
        </view>
+       </navigator>
 
+        <navigator url="../detail/detail4">
         <view class="news"   style="display:flex;flex-direction: row;">
         <view class="news_img">
-          <image class="cover-img" src="../../images/dynamic.png"></image>
+          <image class="cover-img" src="../../images/new5.jpg"></image>
         </view>
         <view class="content">
-          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+          <view class="news_title">当今互联网发展趋势</view>
         </view>
        </view>
+       </navigator>
 
+        <navigator url="../detail/detail5">
         <view class="news"   style="display:flex;flex-direction: row;">
         <view class="news_img">
-          <image class="cover-img" src="../../images/dynamic.png"></image>
+          <image class="cover-img" src="../../images/new6.jpg"></image>
         </view>
         <view class="content">
-          <view class="news_title">深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js深入先出node.js</view>
+          <view class="news_title">谷歌展示多款AI游戏：人工智能系统准确识别涂鸦</view>
         </view>
        </view>
+       </navigator>
+
   </view>
 
 

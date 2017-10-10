@@ -1,0 +1,25 @@
+.weui-article__title .summary {
+  line-height: 30px;
+}
+
+.weui-article {
+  padding: 20px 15px;
+  font-size: 15px;
+}
+
+.weui-article__h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.9em;
+}
+
+.weui-article__section {
+  margin-bottom: 1.5em;
+}
+
+/*分割线样式*/
+.divLine {
+  background: #f3f3f3;
+  width: 100%;
+  height: 5rpx;
+}

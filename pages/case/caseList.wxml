@@ -1,0 +1,60 @@
+
+<view class="workbench_news">
+      <text class="title">成功案例</text>
+
+      <navigator url="../case/detail1">
+      <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/new2.jpg"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">华为助力东风通信走向“云之路”</view>
+        </view>
+       </view>
+       </navigator>
+
+        <navigator url="../case/detail2">
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/new3.jpg"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">华为助力光大银行构建全国分行二级资源池</view>
+        </view>
+       </view>
+       </navigator>
+
+        <navigator url="../case/detail3">
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/new4.jpg"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">华为&东风，汽车与新ICT的混血融合</view>
+        </view>
+       </view>
+       </navigator>
+
+        <navigator url="../case/detail4">
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/new5.jpg"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">国内首个电力行业运营型云数据中心建设为何选择华为</view>
+        </view>
+       </view>
+       </navigator>
+
+        <navigator url="../case/detail5">
+        <view class="news"   style="display:flex;flex-direction: row;">
+        <view class="news_img">
+          <image class="cover-img" src="../../images/new6.jpg"></image>
+        </view>
+        <view class="content">
+          <view class="news_title">有一种邂逅叫：华为SAP HANA遇上“冷酸灵”</view>
+        </view>
+       </view>
+       </navigator>
+
+  </view>
