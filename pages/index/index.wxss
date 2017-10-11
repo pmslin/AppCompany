@@ -67,17 +67,13 @@
   text-align: center;
   margin-top: 10rpx;
 }
-.video{
-  text-align: center;
-}
+
 .content{
   font-size: 28rpx;
 }
 .workbench_news .cover-img{
   width: 170rpx;
   height: 170rpx;
-
-  
 }
 
 .workbench_news{
@@ -108,3 +104,7 @@
 }
 
 
+.slide-image{
+  width: 100%;
+  height: 160px;
+}
