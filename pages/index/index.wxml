@@ -1,4 +1,4 @@
-<view class="home-wrap">
+<view class="home-wrap" style="width:99%;">
   <view class="ads-list">
     <view class="ads-item" wx:for="{{advertise}}" wx:key="unique" wx:for-item="item">
       <image src="{{item.image}}" mode="scaleToFill center" class="sub-banner"></image>

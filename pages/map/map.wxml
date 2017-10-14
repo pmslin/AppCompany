@@ -1,4 +1,5 @@
- <image  mode="aspectFit"  src="../../images/com.jpg"></image>
+ <view style="width:99%; ">
+   <image  mode="aspectFit"  src="../../images/com.jpg"></image>
 
       <form bindsubmit="openLocation">
         <view class="page-body-form">
@@ -42,7 +43,7 @@
           <button class="page-body-button" type="primary" formType="submit">查看地图位置</button>
         </view>
       </form>
-
+  </view>
 
 
 

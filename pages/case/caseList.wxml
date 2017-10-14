@@ -1,5 +1,5 @@
 
-<view class="workbench_news">
+<view class="workbench_news"  style="width:99.9%; height:99.9%;">
       <text class="title">成功案例</text>
 
       <navigator url="../case/detail1">

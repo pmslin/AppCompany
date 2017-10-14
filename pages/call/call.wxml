@@ -1,4 +1,5 @@
- <image mode="aspectFit"  src="../../images/call.jpg"></image>
+ <view style="width:99%; ">
+      <image mode="aspectFit"  src="../../images/call.jpg"></image>
 
       <form bindsubmit="openLocation">
         <view class="page-body-form">
@@ -24,4 +25,5 @@
         </view>
       </form>
 
+  </view>
 

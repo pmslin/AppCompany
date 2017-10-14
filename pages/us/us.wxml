@@ -1,4 +1,4 @@
-<view hidden="{{loading}}" class="weui-article">
+<view hidden="{{loading}}" class="weui-article" >
   <view class="weui-article__h1">关于我们</view>
   <!-- 分割线 -->
   <view class="divLine"></view>
